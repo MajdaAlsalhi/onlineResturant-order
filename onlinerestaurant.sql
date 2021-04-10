@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 15, 2019 at 09:41 AM
+-- Generation Time: Apr 29, 2019 at 09:44 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.1
 
@@ -36,6 +36,16 @@ CREATE TABLE `booking` (
   `regest` enum('') DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `booking`
+--
+
+INSERT INTO `booking` (`id`, `resturantN`, `place`, `time`, `regest`) VALUES
+(1, 'KFC', 'Sohar', '9Am', NULL),
+(2, 'Macdonald', 'Barka', '11Pm', NULL),
+(4, 'sadaf', 'Muscat', '7Am', NULL),
+(5, 'Albraki', 'sohar', '2pm', NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -63,6 +73,7 @@ INSERT INTO `users` (`id`, `username`, `password`, `email`, `gender`) VALUES
 (112, 's', 's', 'jhgf@gmail.com', 'M'),
 (147, 'bb', 'b', 'jhgf@gmail.com', 'M'),
 (222, 'mmm', 'm', 'jhgf@gmail.com', 'F'),
+(5544, 'nn', 'nn', 'jhgf@gmail.com', 'M'),
 (23456895, 'noor12345', '12345', 'jhgf@gmail.com', 'M');
 
 --

@@ -61,7 +61,7 @@ $row= mysqli_fetch_array($result);
 <form  method="post" action="form2.php">
 
 
-id <br>
+id 
 
 <input type="text" name="id" value="<?php echo $row['id']; ?>">
 <br>
@@ -74,7 +74,9 @@ place:<br>
 time<br>
 <input type="text" name="time"  value="<?php echo $row['time']; ?>">
 <br>
-<input type="submit" name="submit" value="Submit">
+<input type="submit" name="submit" value="Edit" id="P1">
+<input type="button" id="P1" value=" Logout" style="width:90px;"onclick="window.location.href='/onlineResturant/logout.php'" />
+	
 </form>
 		    
 	 

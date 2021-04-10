@@ -39,25 +39,17 @@
 <div id="ThreeButton">
 
 <?php 
-		
-session_start();
-		
-if($_SESSION['logged'] == true){ //from http://stackoverflow.com/questions/20654848/html-php-display-username-after-success-login /
-}	
+	
 
-echo'<h3>
-Thank you'.' '; echo $_SESSION["login_user"]; echo''.' for ordering</h3>';
- if(array_key_exists('submit', $_POST)) {
- 
-	$selection=$_POST['check'];
-	foreach($selection as $key => $value){
+echo'<h3> Thank you for ordering</h3>';
+
+ if(isset($_POST["submit"])) {
+ if(!empty($_POST["check"])){
+	foreach($_POST["check"] as $item){
 			
-			echo $key,"<br>";	
+			echo $item . "<br>";	
 				} }
-
-else{
-echo"No Order";
-}
+ }
 
 ?>
 <a href="index.html" id="P1" style="text-decoration:none; ">Logout</a>

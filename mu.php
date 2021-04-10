@@ -36,7 +36,7 @@
 <br><br><br><br>
 
 <center>
-<div id="ThreeButton">
+<div id="ThreeButton" style="width:400px;">
 <?php
 /* http://www.c-sharpcorner.com/UploadFile/satyapriyanayak/how-to-insert-edit-and-delete-in-php/ */
 
@@ -56,8 +56,8 @@ echo "<tr>
 <th><font color='black'>place</font></th>
 <th><font color='black'>Time</font></th>
 
-<th><font color='black'>Edit</font></th>
-<th><font color='black'>Delete</font></th>
+<th><font color='black'>Action</font></th>
+
 </tr>";
 
 while($row = mysqli_fetch_array( $result,MYSQLI_ASSOC)){
@@ -67,8 +67,8 @@ echo '<td><b><font color="#663300">' . $row['id'] . '</font></b></td>';
 echo '<td><b><font color="#663300">' . $row['resturantN'] . '</font></b></td>';
 echo '<td><b><font color="#663300">' . $row['place'] . '</font></b></td>';
 echo '<td><b><font color="#663300">' . $row['time'] . '</font></b></td>';
-echo '<td><b><font color="#663300"><a href="edit.php?id=' . $row['id'] . '">Edit</a></font></b></td>';
-echo '<td><b><font color="#663300"><a href="delete1.php?id=' . $row['id'] . '">Delete</a></font></b></td>';
+echo '<td><b><font color="#663300"><a href="edit.php?id=' . $row['id'] . '">Edit</a>\<a href="delete1.php?id=' . $row['id'] . '">Delete</a></font></b></td>';
+
 echo "</tr>";
 
 }

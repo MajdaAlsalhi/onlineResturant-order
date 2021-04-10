@@ -65,10 +65,9 @@ session_start();
   <body>
            
          <form action="addDB.php" method="post" name="submitAccount" >
-								<div id="login" class="animate w3layouts agileits form">
-								<div class="ferry ferry-from">
-                                     <fieldset>
-<legend><h3><center>Add new row </center></h3></legend>
+							
+                                    
+Add new row<br> 
 										<label>id</label>
 										<input type="number" name="id" placeholder="id"  id="id" required=" ">
 									
@@ -89,9 +88,11 @@ session_start();
 										<div class="clear"></div>
 									
 									<div class="wthreesubmitaits">
-                                   <input type="submit" name="submitAccount" value="Add">
+                                   <input type="submit" name="submitAccount" id="P1"value="Add">
+								   <input type="button" id="P1" value=" Logout" style="width:90px;"onclick="window.location.href='/onlineResturant/logout.php'" />
+	
 									</div>
-                                    </fieldset>
+                                 
              </div><br><br><br>
              </div>
             
@@ -100,7 +101,7 @@ session_start();
 								
 
         </div>
-      </header>
+   
 
   </body>
 
