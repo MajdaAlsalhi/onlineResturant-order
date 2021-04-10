@@ -1,0 +1,95 @@
+ .jj{
+font-size: 87.5%; 
+background-color:white;
+Line-height:1.5;
+text-align:left;
+ background-image:url(bg.jpg);
+ }
+#ThreeButton{display: inline-block;
+ 
+	background:olive;
+	outline: solid 2px gray;
+	border: solid 2px white;
+	color: white;
+	padding: 60px 60px 60px 60px ;
+	margin: 5px 10;
+	width:20%;
+	height:230px;
+	
+	text-decoration: none;
+	font-family: inherit;
+	font-size: 20;
+	font-weight: bold;
+	cursor: pointer;}
+#new{height:30px;text-align:left;padding: 1px 5px;margin-bottom:-10px;}
+#login{height:30px;text-align:left;padding: 1px 5px;margin-bottom:-10px;}
+#admin{height:30px;text-align:left;padding: 1px 5px;margin-bottom:-10px;}
+#Button{
+	display: inline-block;
+	background: black;
+	outline: solid 2px black;
+	border: solid 2px white;
+	color: white;
+	padding: 10px 15px;
+	margin: 20px 0;
+	text-decoration: none;
+	font-family: inherit;
+	font-size: 15;
+	font-weight: bold;
+	cursor: pointer;
+	width:150px;
+	
+	
+}
+
+#newUser{margin-top:100px;
+}	
+	
+	
+
+
+
+        
+       h2{
+margin-left: 500px;
+
+font-size: 50px;
+font-family:Lucida Console, sans-serif;
+}
+#booking{margin-bottom:-30px; font-family:TimeNewRoman, sans-serif;background-color:lightergray;}
+
+#p1{display: inline-block;
+	background: black;
+	outline: solid 2px black;
+	border: solid 2px white;
+	color: white;
+	
+	margin: 20px 0;
+	text-decoration: up;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	cursor: pointer;
+	width:90px;
+	}
+
+
+
+
+
+
+
+
+/* This class is for design the columns */
+
+hr{height:5px; color:black;background-color:black;}
+
+#header{/*background-image:url(1.jpg);*/background-position:absolute;border:50%;border-color:black;border-right-width:100;background-color:olive;
+}
+/*p{text-indent: 50px;}
+
+
+
+	
+
+
